@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 .navbar{
     height: 60px;
     background-color: #0F1111;
@@ -28,6 +30,7 @@
 }
 .border:hover{
     border-color: white;
+    
 }
 
 
@@ -105,4 +108,65 @@
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+}
+
+/* Cart  */
+.cart{
+    width: 80px;
+    height: 50px;
+    display: flex;
+}
+.cart p{
+    align-self: center;
+}
+.xshop{
+    width: 100% ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #041033;
+    font-size: 1rem;
+    color: white;
+}
+.menu-icon{
+    
+    display: flex;
+    margin-left: 10px;
+    gap: 5px;
+}
+.other-deals{
+    display: flex;
+    gap: 12px;
+    margin-left: 10px;
+}
+.other-deals > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero-section{
+    height: 400px;
+    background-image: url("/Images/back\ Image\ 1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-section-msg{
+    width: 95%;
+    height: 40px;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.all-cards{
+    width: 100vw;
+    height: 1000px;
+    background-color: #f1ecec;
+    box-shadow: 0 -10px 20px #f1ecec;
 }
